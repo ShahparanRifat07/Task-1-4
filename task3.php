@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $employees[] = new Employee($id, $name, $salary);
 
-    //Logging [Task-1 POST Request]
+    //Logging [Task-3 POST Request]
     date_default_timezone_set('Asia/Dhaka');
     $userIP = $_SERVER['REMOTE_ADDR'];
     $now = date('Y-m-d H:i:s');
